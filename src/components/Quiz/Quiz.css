@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+}
+
+.container{
+    background: linear-gradient(to bottom right, /* #032b5a*/#032b5a, #48017a ,#032b5a);
+}
+
+.box{
+    background: #E6E6FA;
+}
+
+.options{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.correct{ 
+    border: 2px solid;
+    background: #86d2bc;
+}
+
+.correct:hover{
+    border: 1.95px solid;
+    transform: scale(1);
+}
+
+.wrong{ 
+    border: 2px solid;
+    background: #fe8484;
+}
+
+.wrong:hover{
+    border: 1.95px solid; 
+    transform: scale(1);
+}
