@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import "./Quiz.css";
-import { quizQuestions } from "../../assets/data";
-import QuizTimer from "../timer";
+import { quizQuestions } from "../assets/data";
+import QuizTimer from "./timer";
 
 const Quiz = () => {
   /* !! index sh. be variable !! */
@@ -37,7 +37,7 @@ const Quiz = () => {
       if (index === quizQuestions.length - 1) {
         setResult(true);
       }
-    }, 3000);
+    }, 2000);
   };
 
   // to highlight correct option  if incorrect
