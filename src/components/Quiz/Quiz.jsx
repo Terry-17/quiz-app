@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import "./Quiz.css";
-import { quizQuestions } from "../assets/data";
-import  { QuizTimer } from "./Timer"
+import { quizQuestions } from "../../assets/data";
+import QuizTimer from "../timer";
 
 const Quiz = () => {
   /* !! index sh. be variable !! */
